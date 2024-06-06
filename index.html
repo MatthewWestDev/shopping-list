@@ -64,7 +64,7 @@
         addItem.addEventListener("click", addToList);
 
         input.addEventListener("keyup", function(e){
-            if (e.keyCode === 13) {
+            if (e.code === "Enter") {
                 e.preventDefault();
                 addToList();
             };  
